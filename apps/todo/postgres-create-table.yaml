@@ -9,6 +9,7 @@ spec:
   ttlSecondsAfterFinished: 100
   template:
     spec:
+      manualSelector: true
       containers:
         - name: postgresql-client
           image: postgres:12
