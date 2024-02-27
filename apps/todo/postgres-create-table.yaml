@@ -26,4 +26,4 @@ spec:
               "--command=create table Todo (id bigint not null,completed boolean not null,ordering integer,title varchar(255),url varchar(255),primary key (id));create sequence hibernate_sequence start with 1 increment by 1;",
             ]
       restartPolicy: Never
-  backoffLimit: 1
+  backoffLimit: 3
